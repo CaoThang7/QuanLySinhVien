@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anhheader"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".LopInsertActivity">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF33"
+        android:text="QUẢN LÍ LỚP HỌC"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/textVieww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textSize="30dp"
+        android:textColor="#E0E0E0"
+        android:text="Mã lớp:" />
+
+    <EditText
+        android:id="@+id/txtMaLop"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-42dp"
+        android:ems="10"
+        android:textColor="#C8C8C8"
+        android:hint="MB..."
+        android:background="#FFFFFF"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#E0E0E0"
+        android:layout_marginTop="20dp"
+        android:text="Tên lớp:" />
+
+    <EditText
+        android:id="@+id/txtTenLop"
+        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-42dp"
+        android:ems="10"
+        android:hint="LT..."
+        android:background="#FFFFFF"
+        android:textColor="#C8C8C8"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="#CCFF00"
+        android:layout_marginTop="20dp"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/btnSua"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CCFF00"
+        android:text="Update"
+        />
+    <Button
+        android:id="@+id/btnXoa"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CCFF00"
+        android:text="DELETE"
+        />
+</LinearLayout>

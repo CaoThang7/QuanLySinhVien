@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lt15303_ps12545_lycaothang_assignmentgd1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SpEditActivity"></activity>
+        <activity android:name=".SanPhamInsertActivity" />
+        <activity android:name=".SanPhamActivity">
+
+        </activity>
+        <activity android:name=".sinhvienEdit" />
+        <activity android:name=".SvEditActivity" />
+        <activity android:name=".sinhvien_insert" />
+        <activity android:name=".SinhVienActivity" />
+        <activity android:name=".adapter.SinhVienAdapter" />
+        <activity android:name=".lophoc_item" />
+        <activity android:name=".QLSV2Activity" />
+        <activity android:name=".Login2Activity" />
+        <activity android:name=".doimatkhauActivity" />
+        <activity android:name=".QLthemsuasvActivity" />
+        <activity android:name=".QLLHActivity" />
+        <activity android:name=".QLSVActivity" />
+        <activity android:name=".MainnActivity" />
+        <activity android:name=".Lab1btThemActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LopInsertActivity" />
+        <activity android:name=".lopEditActivity" /> <!-- <activity android:name=".CustomListViewActivity" /> -->
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

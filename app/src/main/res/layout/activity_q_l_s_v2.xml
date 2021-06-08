@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/g"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".QLSV2Activity">
+
+    <ImageButton
+        android:id="@+id/image11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="300dp"
+
+        android:adjustViewBounds="true"
+        android:background="@drawable/chienbinh"
+        android:scaleType="fitCenter"
+        android:src="@drawable/chienbinh" />
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XEM DS LỚP "
+        android:layout_gravity="right"
+        android:textSize="20dp"
+
+        android:textColor="#FFFF66"
+        android:textStyle="bold"
+
+        android:layout_marginRight="18dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/image22"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-178dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ironman"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ironman" />
+
+    <TextView
+        android:id="@+id/txt22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="THÊM LỚP "
+        android:textStyle="bold"
+        android:textColor="#FFFF66"
+        android:layout_marginLeft="38dp"/>
+
+</LinearLayout>

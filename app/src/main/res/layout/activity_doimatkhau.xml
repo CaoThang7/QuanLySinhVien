@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/banNer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doimatkhauActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF33"
+        android:gravity="center"
+        android:text="ĐỔI MẬT KHẨU"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:text="Mật khẩu cũ: " />
+
+    <EditText
+        android:id="@+id/oldPwd"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-42dp"
+        android:ems="10"
+        android:textColor="#C8C8C8"
+        android:hint="Nhập "
+        android:background="#FFFFFF"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Mật khẩu mới:" />
+
+    <EditText
+        android:id="@+id/newPwd"
+        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-42dp"
+        android:ems="10"
+        android:hint="Nhập pass mới"
+        android:background="#FFFFFF"
+        android:textColor="#C8C8C8"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Nhâp lại:" />
+
+    <EditText
+        android:id="@+id/rePwd"
+        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-42dp"
+        android:ems="10"
+        android:hint="Mời nhập lại "
+        android:background="#FFFFFF"
+        android:textColor="#C8C8C8"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btDmk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Đổi mật khẩu "
+            android:layout_marginTop="20dp"
+            android:background="#CCFF00"/>
+
+        <Button
+            android:id="@+id/btNhapLai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quay lại Login"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="#CCFF00"/>/>
+    </LinearLayout>
+</LinearLayout>
